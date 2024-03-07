@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task Manager</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            .task {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            .task input [type="checkbox"] {
+                margin-bottom: 10px;
+            }
+            .task .title {
+                font-weight: bold;
+            }
+            .task .description {
+                font-size: 14px;
+                color: #777;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Task Manger</h1>
+
+        <div class="task">
+            <input type="checkbox" id="task1">
+            <label for="task1" class="title">Buy groceries:</label>
+            <p class="description"> Remember to get milk, eggs, and bread.</p>
+        </div>
+
+        <div class="task">
+            <input type="checkbox" id="task2">
+            <label for="task2" class="title">Finish project report:</label>
+            <p class="description">Include data analysis and conclusions.</p>
+        </div>
+
+        <div class="task">
+            <input type="checkbox" id="task3">
+            <label for="task3" class="title">Get to work:</label>
+            <p class="description">Don't forget the required gadgets.</p>
+        </div>
+
+        <div class="task">
+            <input type="checkbox" id="task4">
+            <label for="task4" class="title">Get to the airport:</label>
+            <p class="description">Get your luggages from the park</p>
+        </div>
+    </body>
+</html>
